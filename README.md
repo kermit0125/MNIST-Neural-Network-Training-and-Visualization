@@ -35,7 +35,7 @@ A Python project demonstrating training of neural networks on MNIST digit data u
 ---
 
 ## 📂 Project Structure
-
+```
 project_root/
 │
 ├── data/
@@ -66,7 +66,7 @@ project_root/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## ⚙️ Installation
