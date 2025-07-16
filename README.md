@@ -74,17 +74,26 @@ project_root/
 ### 1. Create a virtual environment
 
 **Windows (PowerShell):**
+
+```
 python -m venv myenv
 .\myenv\Scripts\activate
+```
 
 **macOS / Linux:**
+
+```
 python3 -m venv myenv
 source myenv/bin/activate
+```
+
 ---
 
 ### 2. Install requirements
 
+```
 pip install -r requirements.txt
+```
 
 
 ---
@@ -92,9 +101,9 @@ pip install -r requirements.txt
 ## 📝 How to Run
 
 Run the main pipeline:
-
+```
 python src/main.py
-
+```
 
 All results will be saved under the `outputs/` and `figures/` folders. A PDF report will be generated summarizing all results.
 
